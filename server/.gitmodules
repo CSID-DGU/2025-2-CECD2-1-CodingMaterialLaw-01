@@ -1,0 +1,3 @@
+[submodule "IoT-Secret"]
+	path = IoT-Secret
+	url = https://github.com/Monorama-IoT-Platform/IoT-Secret.git
