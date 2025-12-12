@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>프로젝트 등록</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 p-8 text-gray-800">
+  <div class="max-w-4xl mx-auto bg-white shadow-md rounded-lg p-8 space-y-8">
+    <h1 class="text-2xl font-semibold">프로젝트 등록</h1>
+
+    <!-- Project Manager -->
+    <section class="space-y-4">
+      <h2 class="text-xl font-medium">프로젝트 매니저 정보</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div>
+          <label class="block mb-1 font-medium">Manager ID</label>
+          <input type="text" class="w-full border rounded px-3 py-2" placeholder="Enter ID">
+        </div>
+        <div>
+          <label class="block mb-1 font-medium">E-Mail</label>
+          <div class="flex gap-2">
+            <input type="email" class="flex-1 border rounded px-3 py-2" placeholder="example@domain.com">
+            <button class="bg-blue-600 text-white px-4 rounded hover:bg-blue-700">Verify</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Info -->
+    <section class="space-y-4">
+      <h2 class="text-xl font-medium">프로젝트 정보</h2>
+      <div class="space-y-4">
+        <label class="block">
+          <span class="block mb-1 font-medium">Title</span>
+          <input type="text" class="w-full border rounded px-3 py-2" value="Asthma & Air Quality Study">
+        </label>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div>
+            <label class="block mb-1 font-medium">시작일</label>
+            <input type="date" class="w-full border rounded px-3 py-2">
+          </div>
+          <div>
+            <label class="block mb-1 font-medium">종료일</label>
+            <input type="date" class="w-full border rounded px-3 py-2">
+          </div>
+        </div>
+
+        <label class="block">
+          <span class="block mb-1 font-medium">Participants</span>
+          <input type="number" class="w-full border rounded px-3 py-2" value="100">
+        </label>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div>
+            <label class="block font-medium mb-1">Terms of Use</label>
+            <textarea class="w-full border rounded px-3 py-2 h-24"></textarea>
+          </div>
+          <div>
+            <label class="block font-medium mb-1">Privacy Policy</label>
+            <textarea class="w-full border rounded px-3 py-2 h-24"></textarea>
+          </div>
+          <div>
+            <label class="block font-medium mb-1">Health Data Consent</label>
+            <textarea class="w-full border rounded px-3 py-2 h-24"></textarea>
+          </div>
+          <div>
+            <label class="block font-medium mb-1">Location Info Terms of Use</label>
+            <textarea class="w-full border rounded px-3 py-2 h-24"></textarea>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tabbed Section -->
+    <section class="space-y-4">
+      <h2 class="text-xl font-medium">수집 항목 선택</h2>
+
+      <div>
+        <div class="flex gap-4 border-b">
+          <button onclick="selectTab('personal')" class="tab-btn py-2 px-4 font-medium border-b-2 border-blue-500">Personal Info</button>
+          <button onclick="selectTab('health')" class="tab-btn py-2 px-4 text-gray-500 hover:text-black">Health Data</button>
+          <button onclick="selectTab('air')" class="tab-btn py-2 px-4 text-gray-500 hover:text-black">Air Quality</button>
+        </div>
+
+        <!-- Personal Info -->
+        <div id="tab-personal" class="tab-content space-y-2 mt-4">
+          <label><input type="checkbox" checked class="mr-2"> Gender</label>
+          <label><input type="checkbox" class="mr-2"> Birth</label>
+          <label><input type="checkbox" checked class="mr-2"> Blood Type</label>
+          <label><input type="checkbox" class="mr-2"> Tall</label>
+          <label><input type="checkbox" class="mr-2"> Weight</label>
+          <label><input type="checkbox" class="mr-2"> Email</label>
+          <label><input type="checkbox" class="mr-2"> ID</label>
+          <label><input type="checkbox" class="mr-2"> Name</label>
+        </div>
+
+        <!-- Health Data -->
+        <div id="tab-health" class="tab-content space-y-2 mt-4 hidden">
+          <label><input type="checkbox" checked class="mr-2"> Blood Pressure</label>
+          <label><input type="checkbox" class="mr-2"> SO2</label>
+          <label><input type="checkbox" checked class="mr-2"> Steps</label>
+          <label><input type="checkbox" class="mr-2"> Checkbox</label>
+        </div>
+
+        <!-- Air Quality -->
+        <div id="tab-air" class="tab-content space-y-2 mt-4 hidden">
+          <label><input type="checkbox" checked class="mr-2"> Number of Building Floor</label>
+          <label><input type="checkbox" class="mr-2"> Size</label>
+          <label><input type="checkbox" checked class="mr-2"> Number of People</label>
+          <label><input type="checkbox" class="mr-2"> Purpose of Room</label>
+          <label><input type="checkbox" class="mr-2"> With or Without Humidifier</label>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    function selectTab(tab) {
+      document.querySelectorAll('.tab-content').forEach(t => t.classList.add('hidden'));
+      document.getElementById(tab-${tab}).classList.remove('hidden');
+      document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('border-blue-500'));
+      event.target.classList.add('border-blue-500');
+    }
+  </script>
+</body>
+</html>
