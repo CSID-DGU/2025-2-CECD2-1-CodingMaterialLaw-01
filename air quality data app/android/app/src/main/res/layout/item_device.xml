@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="#EEF3FF"
+    android:layout_marginTop="8dp"
+    android:layout_marginHorizontal="8dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/text_device_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Device Name"
+        android:textStyle="bold"
+        android:textColor="#2962FF"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text_device_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="00:11:22:33:44:55"
+        android:textColor="#808080"
+        android:textSize="13sp"
+        android:layout_marginTop="2dp" />
+</LinearLayout>

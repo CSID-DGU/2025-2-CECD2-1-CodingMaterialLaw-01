@@ -1,0 +1,8 @@
+<!-- 개발용 문서 -->
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">10.0.2.2</domain>
+        <domain includeSubdomains="true">121.165.157.54</domain>
+    </domain-config>
+</network-security-config>
+
