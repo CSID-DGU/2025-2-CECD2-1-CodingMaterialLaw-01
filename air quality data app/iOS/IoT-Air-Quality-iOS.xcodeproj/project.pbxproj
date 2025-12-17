@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5692E3F22DDE0EB000025C89 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = 5692E3F12DDE0EB000025C89 /* KeychainAccess */; };
+		5692E3F52DDE0EEF00025C89 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 5692E3F42DDE0EEF00025C89 /* Alamofire */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5692E3D42DDE0DEA00025C89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5692E3BB2DDE0DE800025C89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5692E3C22DDE0DE800025C89;
+			remoteInfo = "IoT-Air-Quality-iOS";
+		};
+		5692E3DE2DDE0DEA00025C89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5692E3BB2DDE0DE800025C89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5692E3C22DDE0DE800025C89;
+			remoteInfo = "IoT-Air-Quality-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5692E3C32DDE0DE800025C89 /* IoT-Air-Quality-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IoT-Air-Quality-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5692E3D32DDE0DEA00025C89 /* IoT-Air-Quality-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IoT-Air-Quality-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5692E3DD2DDE0DEA00025C89 /* IoT-Air-Quality-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IoT-Air-Quality-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		569EB3392DDF9B8A005D0630 /* Exceptions for "IoT-Air-Quality-iOS" folder in "IoT-Air-Quality-iOS" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5692E3C22DDE0DE800025C89 /* IoT-Air-Quality-iOS */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5692E3C52DDE0DE800025C89 /* IoT-Air-Quality-iOS */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				569EB3392DDF9B8A005D0630 /* Exceptions for "IoT-Air-Quality-iOS" folder in "IoT-Air-Quality-iOS" target */,
+			);
+			path = "IoT-Air-Quality-iOS";
+			sourceTree = "<group>";
+		};
+		5692E3D62DDE0DEA00025C89 /* IoT-Air-Quality-iOSTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "IoT-Air-Quality-iOSTests";
+			sourceTree = "<group>";
+		};
+		5692E3E02DDE0DEA00025C89 /* IoT-Air-Quality-iOSUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "IoT-Air-Quality-iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5692E3C02DDE0DE800025C89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5692E3F22DDE0EB000025C89 /* KeychainAccess in Frameworks */,
+				5692E3F52DDE0EEF00025C89 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5692E3D02DDE0DEA00025C89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5692E3DA2DDE0DEA00025C89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5692E3BA2DDE0DE800025C89 = {
+			isa = PBXGroup;
+			children = (
+				5692E3C52DDE0DE800025C89 /* IoT-Air-Quality-iOS */,
+				5692E3D62DDE0DEA00025C89 /* IoT-Air-Quality-iOSTests */,
+				5692E3E02DDE0DEA00025C89 /* IoT-Air-Quality-iOSUITests */,
+				5692E3C42DDE0DE800025C89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5692E3C42DDE0DE800025C89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5692E3C32DDE0DE800025C89 /* IoT-Air-Quality-iOS.app */,
+				5692E3D32DDE0DEA00025C89 /* IoT-Air-Quality-iOSTests.xctest */,
+				5692E3DD2DDE0DEA00025C89 /* IoT-Air-Quality-iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5692E3C22DDE0DE800025C89 /* IoT-Air-Quality-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5692E3E72DDE0DEA00025C89 /* Build configuration list for PBXNativeTarget "IoT-Air-Quality-iOS" */;
+			buildPhases = (
+				5692E3BF2DDE0DE800025C89 /* Sources */,
+				5692E3C02DDE0DE800025C89 /* Frameworks */,
+				5692E3C12DDE0DE800025C89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5692E3C52DDE0DE800025C89 /* IoT-Air-Quality-iOS */,
+			);
+			name = "IoT-Air-Quality-iOS";
+			packageProductDependencies = (
+				5692E3F12DDE0EB000025C89 /* KeychainAccess */,
+				5692E3F42DDE0EEF00025C89 /* Alamofire */,
+			);
+			productName = "IoT-Air-Quality-iOS";
+			productReference = 5692E3C32DDE0DE800025C89 /* IoT-Air-Quality-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5692E3D22DDE0DEA00025C89 /* IoT-Air-Quality-iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5692E3EA2DDE0DEA00025C89 /* Build configuration list for PBXNativeTarget "IoT-Air-Quality-iOSTests" */;
+			buildPhases = (
+				5692E3CF2DDE0DEA00025C89 /* Sources */,
+				5692E3D02DDE0DEA00025C89 /* Frameworks */,
+				5692E3D12DDE0DEA00025C89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5692E3D52DDE0DEA00025C89 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5692E3D62DDE0DEA00025C89 /* IoT-Air-Quality-iOSTests */,
+			);
+			name = "IoT-Air-Quality-iOSTests";
+			packageProductDependencies = (
+			);
+			productName = "IoT-Air-Quality-iOSTests";
+			productReference = 5692E3D32DDE0DEA00025C89 /* IoT-Air-Quality-iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5692E3DC2DDE0DEA00025C89 /* IoT-Air-Quality-iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5692E3ED2DDE0DEA00025C89 /* Build configuration list for PBXNativeTarget "IoT-Air-Quality-iOSUITests" */;
+			buildPhases = (
+				5692E3D92DDE0DEA00025C89 /* Sources */,
+				5692E3DA2DDE0DEA00025C89 /* Frameworks */,
+				5692E3DB2DDE0DEA00025C89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5692E3DF2DDE0DEA00025C89 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5692E3E02DDE0DEA00025C89 /* IoT-Air-Quality-iOSUITests */,
+			);
+			name = "IoT-Air-Quality-iOSUITests";
+			packageProductDependencies = (
+			);
+			productName = "IoT-Air-Quality-iOSUITests";
+			productReference = 5692E3DD2DDE0DEA00025C89 /* IoT-Air-Quality-iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5692E3BB2DDE0DE800025C89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					5692E3C22DDE0DE800025C89 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					5692E3D22DDE0DEA00025C89 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 5692E3C22DDE0DE800025C89;
+					};
+					5692E3DC2DDE0DEA00025C89 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 5692E3C22DDE0DE800025C89;
+					};
+				};
+			};
+			buildConfigurationList = 5692E3BE2DDE0DE800025C89 /* Build configuration list for PBXProject "IoT-Air-Quality-iOS" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5692E3BA2DDE0DE800025C89;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5692E3F02DDE0EB000025C89 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+				5692E3F32DDE0EEF00025C89 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5692E3C42DDE0DE800025C89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5692E3C22DDE0DE800025C89 /* IoT-Air-Quality-iOS */,
+				5692E3D22DDE0DEA00025C89 /* IoT-Air-Quality-iOSTests */,
+				5692E3DC2DDE0DEA00025C89 /* IoT-Air-Quality-iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5692E3C12DDE0DE800025C89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5692E3D12DDE0DEA00025C89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5692E3DB2DDE0DEA00025C89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5692E3BF2DDE0DE800025C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5692E3CF2DDE0DEA00025C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5692E3D92DDE0DEA00025C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5692E3D52DDE0DEA00025C89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5692E3C22DDE0DE800025C89 /* IoT-Air-Quality-iOS */;
+			targetProxy = 5692E3D42DDE0DEA00025C89 /* PBXContainerItemProxy */;
+		};
+		5692E3DF2DDE0DEA00025C89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5692E3C22DDE0DE800025C89 /* IoT-Air-Quality-iOS */;
+			targetProxy = 5692E3DE2DDE0DEA00025C89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5692E3E52DDE0DEA00025C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5692E3E62DDE0DEA00025C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5692E3E82DDE0DEA00025C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "IoT-Air-Quality-iOS/IoT-Air-Quality-iOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IoT-Air-Quality-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = SRFR7M9T35;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "IoT-Air-Quality-iOS/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "IoT-Air-Quality-iOS";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "이 앱은 공기질 측정을 위해 블루투스를 사용합니다.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "이 앱은 같은 네트워크의 장치에 접근하기 위해 로컬 네트워크를 사용합니다.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "공기질 데이터를 수집하기 위해 위치 정보가 필요합니다.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "공기질 데이터를 수집하기 위해 항상 위치 정보가 필요합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "공기질 데이터를 수집하기 위해 위치 정보가 필요합니다.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monorama.IoT-Air-Quality-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5692E3E92DDE0DEA00025C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "IoT-Air-Quality-iOS/IoT-Air-Quality-iOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IoT-Air-Quality-iOS/Preview Content\"";
+				DEVELOPMENT_TEAM = SRFR7M9T35;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "IoT-Air-Quality-iOS/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "IoT-Air-Quality-iOS";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "이 앱은 공기질 측정을 위해 블루투스를 사용합니다.";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "이 앱은 같은 네트워크의 장치에 접근하기 위해 로컬 네트워크를 사용합니다.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "공기질 데이터를 수집하기 위해 위치 정보가 필요합니다.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "공기질 데이터를 수집하기 위해 항상 위치 정보가 필요합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "공기질 데이터를 수집하기 위해 위치 정보가 필요합니다.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monorama.IoT-Air-Quality-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5692E3EB2DDE0DEA00025C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monorama.IoT-Air-Quality-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IoT-Air-Quality-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IoT-Air-Quality-iOS";
+			};
+			name = Debug;
+		};
+		5692E3EC2DDE0DEA00025C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monorama.IoT-Air-Quality-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IoT-Air-Quality-iOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IoT-Air-Quality-iOS";
+			};
+			name = Release;
+		};
+		5692E3EE2DDE0DEA00025C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monorama.IoT-Air-Quality-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "IoT-Air-Quality-iOS";
+			};
+			name = Debug;
+		};
+		5692E3EF2DDE0DEA00025C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monorama.IoT-Air-Quality-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "IoT-Air-Quality-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5692E3BE2DDE0DE800025C89 /* Build configuration list for PBXProject "IoT-Air-Quality-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5692E3E52DDE0DEA00025C89 /* Debug */,
+				5692E3E62DDE0DEA00025C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5692E3E72DDE0DEA00025C89 /* Build configuration list for PBXNativeTarget "IoT-Air-Quality-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5692E3E82DDE0DEA00025C89 /* Debug */,
+				5692E3E92DDE0DEA00025C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5692E3EA2DDE0DEA00025C89 /* Build configuration list for PBXNativeTarget "IoT-Air-Quality-iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5692E3EB2DDE0DEA00025C89 /* Debug */,
+				5692E3EC2DDE0DEA00025C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5692E3ED2DDE0DEA00025C89 /* Build configuration list for PBXNativeTarget "IoT-Air-Quality-iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5692E3EE2DDE0DEA00025C89 /* Debug */,
+				5692E3EF2DDE0DEA00025C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5692E3F02DDE0EB000025C89 /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess";
+			requirement = {
+				kind = exactVersion;
+				version = 4.2.2;
+			};
+		};
+		5692E3F32DDE0EEF00025C89 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = exactVersion;
+				version = 5.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5692E3F12DDE0EB000025C89 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5692E3F02DDE0EB000025C89 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+		5692E3F42DDE0EEF00025C89 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5692E3F32DDE0EEF00025C89 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5692E3BB2DDE0DE800025C89 /* Project object */;
+}
